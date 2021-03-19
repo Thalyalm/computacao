@@ -1,6 +1,6 @@
-Ciência da Computação
+<h1 Ciência da Computação>
 
-Introdução a Computação:
+<h2 Introdução a Computação:>
 
 Uma nova ciência, surgida em meados do Séculos 20.
 
