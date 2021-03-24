@@ -125,6 +125,5 @@ Os detalhes são diferentes em diferentes linguagens, mas algumas instruções b
 Acredite se quiser: isso é praticamente tudo. Todos os programas que você já usou, não importa quão complicados, são feitos de instruções mais ou menos parecidas com essas. Assim, poderíamos definir programação como o processo de dividir uma tarefa grande e complexa em sub-tarefas cada vez menores, até que as sub-tarefas sejam simples o suficiente para serem executadas com uma dessas instruções básicas.
 
 
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
+
+
