@@ -1,0 +1,75 @@
+***********************************************************************************************
+****************************************Software Livre*****************************************
+***********************************************************************************************
+
+//Programa são peculiares:
+
+    Um livro contém conhecimento.
+        Esse conhecimento pode ser sobre ferramentas
+
+    Uma ferramenta (um martelo ou uma máquina) tem utilidade.
+        Mas o conhecimento que a gerou não é acessível diretamente
+
+    Um programa de computador é as duas coisas.
+        Ele contém o conhecimento sobre o problema e sua solução, descritos na linguagem de programação
+        Ele é uma ferramenta para solucionar o problema quando é executado
+
+//Além disso...
+
+    Programas podem ser facilmente copiados.
+    Programas podem ser modificados para incorporar melhorias ou 
+    resolver problemas novos.
+    A mesma ferramenta pode ser usada a adaptada por várias pessoas!
+    O conhecimento  pode ser acessado por todos!
+
+//Mas...
+
+    Do ponto de vista legal, programas são protegidos por direitos de autor (copyright).
+        Metáfora pela qual programas são “comprados” e “vendidos” como se fossem objetos
+
+    O uso da ferramenta tem restrições.
+        É preciso pagar pelo uso, alguns tipos de uso podem ser restritos e etc.
+
+    O conhecimento não pode mais ser usado por todos.
+        E muitas vezes o código-fonte é secreto
+
+//Software Livre:
+
+O software pode e deve ser compartilhado
+
+    ”Se eu posso ajudar meu amigo (oferecendo uma cópia de um programa), por que não fazê-lo?”.
+    “Se meu amigo pode aprender com meu trabalho (analisando o código-fonte de um programa), por que impedi-lo?“.
+    “Se eu e meu amigo trabalharmos juntos, vamos criar facilmente um programa que resolva tanto os problemas dele quanto os meus!”.
+
+E não precisa nem ser meu amigo, pode ser uma comunidade com pessoas, empresas, governos, universidades…
+
+//Definição
+
+Um programa é Software Livre se oferecer as 4 liberdades seguintes:
+
+    Liberdade para executar o programa.
+    Liberdade para estudar e modificar o programa.
+    Liberdade para redistribuir o programa.
+    Liberdade para melhorar e redistribuir as melhorias ao programa.
+
+//Vantagens
+
+O Software Livre oferece diversas vantagens:
+
+    Redução do custo e do risco de desenvolvimento.
+        Não depende de uma única equipe paga por uma única empresa
+
+    Qualidade potencialmente maior	
+        Mais desenvolvedores trabalhando no programa
+        Mais usuários reportando falhas
+        Orgulho pessoal dos desenvolvedores
+
+    Permite ao usuário escolher seu fornecedor.
+        Qualquer um com acesso ao código-fonte pode prestar serviços.
+
+//Software Livre e você
+
+    Várias linguagens de programação amplamente usadas, como Java, Ruby e Python, são Software Livre.
+        E várias delas são usadas em cursos introdutórios à programação por sua excelente qualidade, clareza e popularidade
+
+    Várias ferramentas que você conhece, como o navegador Firefox e quase todo o sistema Android, além de partes fundamentais da infraestrutura de grandes sítios web, como o servidor web Apache e o banco de dados MySQL, são Software Livre.
