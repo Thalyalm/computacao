@@ -1,0 +1,15 @@
+<Linguagem Formal e Linguagem Natural.>
+    
+    O programador fala uma linguagem chamada Linguagem Formal.
+        Que são linguagens que foram projetadas por pessoas para aplicações específicas. 
+        É particularmente boa em denotar relações entre números e símbolos.
+        As linguagens formais são desenvolvidas para serem quase ou totalmente desprovidas de ambiguidade, o que significa que qualquer expressão tem precisamente só um sentido, independentemente do contexto.
+
+
+    Não-programador fala uma linguagem chamada Linguagem Natural.
+        Que são as linguagens que as pessoas falam, como o português, o inglês e o espanhol. 
+        Elas não foram projetadas pelas pessoas (muito embora as pessoas tentem colocar alguma ordem nelas); elas evoluíram naturalmente.
+        As linguagens naturais estão cheias de expressões idiomáticas e metáforas. Se uma pessoa diz “O outro sapato caiu”, é possível que não haja sapato algum e nada caindo.
+
+
+Saber diferenciar e entender as duas linguagens, faz você entender os dois tipos de pessoas.
