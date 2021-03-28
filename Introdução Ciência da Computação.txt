@@ -1,5 +1,3 @@
-<Ciência da Computação>
-
 //Introdução a Computação:
 
 Uma nova ciência, surgida em meados do Séculos 20.
@@ -12,11 +10,11 @@ Engloba aspectos de várias áreas do conhecimento humano:
     Arte
     Esporte 
 
-//Habilidades mais importantes de um Cientista da Computação:
+//Habilidade mais importante de um Cientista da Computação:
 
 Capacidade de resolver problemas do mundo real computacionalmente.
 
-//Habilidades mais básica (concretas):e
+//Habilidades mais básicas (concretas):
 
     Formular um problema do mundo real em termos computacionais.
     Elaborar uma solução para esse problema em termos computacionais.
