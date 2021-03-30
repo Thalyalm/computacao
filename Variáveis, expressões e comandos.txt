@@ -1,0 +1,80 @@
+Variáveis, expressões e comandos
+
+Uma váriavel é um nome que se refere a um valor armazenado na memória do computador. Um comando de atribuição (=) cria uma nova variável e lhe dá um valor.
+
+Um comando de atribuição tem a seguinte forma:
+
+1 | váriavel = expressão
+
+Significado: 
+
+ 1. o valor da expressão é calculado;
+ 2. a váriavel é criada;
+ 3. a váriavel passa a fazer a refêrencia/guardar o valor.
+
+ Variáveis são usadas para guardarmos valores que serão usados mais tarde no programa. Por exemplo, variáveis podem ser usadas como parte de futuras expressões matemáticas, indicando que seus valores serão usados como operandos dos operadores. Note, porém, que uma variável não pode ser usada em uma expressão antes de sua criação.
+
+ A qualquer momento podemos imprimir/exibir o valor de uma variável usando o comando print, tal como indicando no exemplo abaixo:
+
+ >>> a = 2 + 3 * 6
+ >>> print(a)
+ 20
+ >>> b = a - 5
+ >>> print(b)
+ 15
+
+
+Nomes de variáveis devem obedecer à seguinte regra de formação. OS nomes das variáveis devem começar por uma letra ou símbolo '_' (underscore) e depois conter somentes letras, números ou undercore. Atenção, a maiúscula é diferente de minúscula. Assim, maior e Maior são duas váriaveis diferentes. Abaixo são apresentados  alguns exemplos de nomes de variáveis válidos digitados no prompt(>>>) do Python Shell.
+
+>>> valor_bruto = 1000
+>>> _valor = 75
+>>> bola8 = 50 
+>>> DocumentoDeIdentidade = 123456789
+
+
+Abaixo é apresentado um exemplo de nome de variável inválido (por iniciar com um número)
+digitado no prompt(>>>) di Python Shell. Observe a mensagem de erro indicando que o comando não pôde ser processado pelo interpretador. 
+
+>>> 8bola = 50
+SyntaxError: invalid Syntax
+
+
+Atenção:
+O comando de atribuição do Python não deve ser confundido com o conceito de igualdade de equações matemáticas. Por exemplo, o comando a = a + b do Python não implica que b = 0. Isto é, o comando em questão não é uma equação matemática, logo você não deve subtrair 'a' dos dois lados para tirar conclusões.
+
+
+O valor contido no espaço de memória de uma variável pode variar com o tempo, não sendo um valor fixo durante todo tempo de execução de um programa. 
+Desse modo, comandos como a = a-4 são perfeitamente aceitáveis. No exemplo abaixo, a variável a recebe inicialmente o valor 14. Na sequencia, o comando a = a-4 é executado, sendo sua expressão do lado direito a - 4 então avaliada como 14 - 4 e, consequentemente, resultando em 10. Esse novo valor 10 passa então a ser armazenado na variável a, sobrescrevendo seu valor anterior 14 que é perdido.
+
+>>> a = 14
+>>> print(a)
+14
+>>> a = a - 4
+>>> print(a)
+10
+
+
+Podemos imprimir os valores de múltiplas variáveis em um único comando print, passando as variáveis por virgulas.
+
+>>> a = 3
+>>> b = 2
+>>> print(a, b)
+3 2
+
+
+Um problema recorrente em computação é o de trocar/inverter o valor entre duas variáveis. Isso será especialmente útil para a ordenação de dados em aulas futuras.
+Por exemplo, se a = 3 e b = 2 para trocar seus valores poderiamos pensar em usar o seguinte código:
+
+>>> a = b
+>>> b = a 
+>>> print(a, b)
+2 2 
+
+
+No entanto, o código acima não funciona, pois o primeiro comando de atribuição sobrescreverá o valor 3 armazenado na variável a que será perdido. De modo que, no final teremos o valor 2 nas duas variáveis a e b. Uma solução correta pode ser encontrada no código abaixo. A ideia é utilizar uma terceira variável auxiliar para guardar uma cópia de backup do valor original 3 da variável a, antes de copiar em a o valor 2 contido em b.
+
+>>> t = a
+>>> a = b
+>>> b = t
+>>> print(a, b)
+2 3
