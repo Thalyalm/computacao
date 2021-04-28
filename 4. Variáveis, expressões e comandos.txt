@@ -78,3 +78,46 @@ No entanto, o código acima não funciona, pois o primeiro comando de atribuiç�
 >>> b = t
 >>> print(a, b)
 2 3
+
+
+O Python possui vários atalhos, logop ara trocar o valor entre variáveis podemos usar também o seguinte código abaixo. Porém, note que, a solução abaixo é especifica para códigos em Python.
+
+>>> a,b - b,a
+>>> print(a, b)
+2 3
+
+
+Em Python, podemos usar variáveis também para armazenar e processar textos, Na programação de computadores, uma cadeia de caractres, mais conhecida como string, é uma sequência de letras e símbolos (na qual os símbolos podem ser espaços em branco, dígitos e vários outros como pontos de exclamação e interrogação, símbolos matemáticos, etc), geralmente utilizada para representar palavras, frases ou textos de um programa. Em um programa Python, string podem ser especificadas como textos delimtados por aspas duplas ou simples. Somando duas strings obtemos uma nova string resultante da concatenação das duas primeiras. Veja o exemplo abaixo digitado no prompt (>>>) no Python shell:
+
+>>> a = "Paulo"
+>>> b = "Miranda"
+>>> c = a + b
+>>> print(c)
+PauloMiranda
+
+
+Dado que é possivel somar duas strings, poderíamos pensar que é possível também somar uma string com um número inteiro, mas esta não é uma operação definida no Python. Como resultado temos a mensagem de erro indicada no exemplo abaixo.
+
+>>> "Paulo" + 5
+Traceback (most recent call last):
+File "", line 1, in
+"Paulo" + 5
+TypeError: Can´t convert 'int' object to str implicitly 
+
+
+Por outro lado, curiosamente, podemos multriplicar uma string por um inteiro em Python. O resultado é a criação de uma nova string contendo o texto repetido o número de vezes indicado.
+
+>>> "Bla"*10
+'BlaBlaBlaBlaBlaBlaBlaBlaBlaBla'
+
+
+Dado que em Python podemos ter diferentes tipos de dados armazenados em uma variável, como descobrir o tipo de dado armazenado em uma variável preexistente se torna uma pergutna pertinente. Para saber o tipo de dado armazenado em uma variável podemos usar o comando type:
+
+>>> a = 37
+>>> type(a)
+<class 'int'>
+>>> a = "Paulo"
+>>> type(a)
+<class 'str'>
+
+Textos são representados por objetos da classe str (string), enquanto inteiros são representados por objetos da classe int.
