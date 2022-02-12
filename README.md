@@ -1,2 +1,2 @@
 # Computação
-Esse repositorio é para armazenar conhecimento em computação
+Esse repositorio é para armazenar meu conhecimento em computação
